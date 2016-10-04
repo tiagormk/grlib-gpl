@@ -1,0 +1,415 @@
+Script started on Mon 03 Oct 2016 10:48:10 PM BRT
+ary@ary-Lenovo-Y50-70:~/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605$. set_ise13.sh
+. /opt/Xilinx/13.4/ISE_DS/EDK/.settings64.sh /opt/Xilinx/13.4/ISE_DS/EDK
+. /opt/Xilinx/13.4/ISE_DS/ISE/.settings64.sh /opt/Xilinx/13.4/ISE_DS/ISE
+. /opt/Xilinx/13.4/ISE_DS/PlanAhead/.settings64.sh /opt/Xilinx/13.4/ISE_DS/PlanAhead
+. /opt/Xilinx/13.4/ISE_DS/SysGen/.settings64.sh /opt/Xilinx/13.4/ISE_DS/SysGen
+. /opt/Xilinx/13.4/ISE_DS/common/.settings64.sh /opt/Xilinx/13.4/ISE_DS/common
+ary@ary-Lenovo-Y50-70:~/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605$ make mig
+cp grlib_mig/mig.* .
+coregen -b mig.xco -p mig.cgp
+Release 13.4 - Xilinx CORE Generator O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+All runtime messages will be recorded in
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/coregen.l
+og
+WARNING:coreutil:761 - Cannot save the repository configuration to directory
+   '/home/ary/.Xilinx/CoreGen/13.4/indexes', due to insufficient directory
+   privilege.
+INFO:encore:314 - Created non-GUI application for batch mode execution.
+INFO:sim:172 - Generating IP...
+Resolving generic values...
+Finished resolving generic values.
+Customizing IP...
+Finished Customizing.
+INFO:sim:993 - The selected IP does not support an ASY schematic symbol.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: mig_37.xco
+XMDF file found: mig_37_xmdf.tcl
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/arb_mux.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/arb_mux.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/arb_row_col.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/arb_row_col.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/arb_select.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/arb_select.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/bank_cntrl.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/bank_cntrl.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/bank_common.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/bank_common.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/bank_compare.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/bank_compare.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/bank_mach.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/bank_mach.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/bank_queue.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/bank_queue.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/bank_state.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/bank_state.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/col_mach.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/col_mach.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/mc.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/mc.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/rank_cntrl.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/rank_cntrl.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/rank_common.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/rank_common.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/rank_mach.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/rank_mach.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/controller/round_robin_arb.vhd -view all -origin_type
+created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/controller/round_robin_arb.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ecc/ecc_buf.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ecc/ecc_buf.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ecc/ecc_dec_fix.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ecc/ecc_dec_fix.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ecc/ecc_gen.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ecc/ecc_gen.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ecc/ecc_merge_enc.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ecc/ecc_merge_enc.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ip_top/clk_ibuf.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ip_top/clk_ibuf.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ip_top/ddr2_ddr3_chipscope.vhd -view all -origin_type
+created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ip_top/ddr2_ddr3_chipscope.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ip_top/infrastructure.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ip_top/infrastructure.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ip_top/iodelay_ctrl.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ip_top/iodelay_ctrl.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ip_top/mem_intfc.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ip_top/mem_intfc.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ip_top/memc_ui_top.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ip_top/memc_ui_top.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ip_top/mig_37.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ip_top/mig_37.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/circ_buffer.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/circ_buffer.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_ck_iob.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_ck_iob.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_clock_io.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_clock_io.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_control_io.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_control_io.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_data_io.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_data_io.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_dly_ctrl.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_dly_ctrl.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_dm_iob.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_dm_iob.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_dq_iob.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_dq_iob.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_dqs_iob.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_dqs_iob.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_init.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_init.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_pd.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_pd.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_pd_top.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_pd_top.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_rdclk_gen.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_rdclk_gen.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_rdctrl_sync.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_rdctrl_sync.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_rddata_sync.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_rddata_sync.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_rdlvl.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_rdlvl.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_read.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_read.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_top.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_top.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_write.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_write.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/phy_wrlvl.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/phy_wrlvl.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/phy/rd_bitslip.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/phy/rd_bitslip.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ui/ui_cmd.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ui/ui_cmd.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ui/ui_rd_data.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ui/ui_rd_data.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ui/ui_top.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ui/ui_top.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/rtl/ui/ui_wr_data.vhd -view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_
+   cg/mig_37/user_design/rtl/ui/ui_wr_data.vhd" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+/home/ary/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605/tmp/_cg/m
+ig_37/user_design/par/mig_37.ucf -view all -origin_type created
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/mig_37"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Moving files to output directory...
+Finished moving files to output directory
+Saved CGP file for project 'mig'.
+patch -p1 < grlib_mig/mig.diff
+patching file mig_37/user_design/rtl/ip_top/infrastructure.vhd
+patching file mig_37/user_design/rtl/ip_top/iodelay_ctrl.vhd
+patching file mig_37/user_design/rtl/ip_top/memc_ui_top.vhd
+patching file mig_37/user_design/rtl/ip_top/mig_37.vhd
+patching file mig_37/user_design/rtl/phy/phy_top.vhd
+patch -p0 < grlib_mig/mig_reset13.diff
+patching file mig_37/user_design/rtl/ip_top/mig_37.vhd
+ary@ary-Lenovo-Y50-70:~/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605$ exit
+exit
+
+Script done on Mon 03 Oct 2016 10:49:04 PM BRT

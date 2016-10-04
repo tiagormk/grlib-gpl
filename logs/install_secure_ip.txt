@@ -1,0 +1,7 @@
+Script started on Mon 03 Oct 2016 10:53:29 PM BRT
+ary@ary-Lenovo-Y50-70:~/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605$ make install-secureip
+UNISIM source path: /vhdl/src/unisims
+ary@ary-Lenovo-Y50-70:~/workspace/spm_framework/grlib-gpl/designs/leon3-xilinx-ml605$ exit
+exit
+
+Script done on Mon 03 Oct 2016 10:53:53 PM BRT
